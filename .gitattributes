@@ -1,0 +1,11 @@
+# Configuration for git attributes
+
+# Normalize line endings
+**/*.py linguist-detectable
+*.yaml linguist-detectable=false
+*.json linguist-detectable=false
+public/**/*.html linguist-vendored
+*.woff binary
+*.jpg binary
+*.png binary
+vendor/* linguist-vendored
